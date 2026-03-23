@@ -27,11 +27,6 @@
     "DATABASE_URL": {
       "description": "PostgreSQL connection string. Automatically set by the Heroku Postgres add-on — do not change.",
       "required": false
-    },
-    "PORT": {
-      "description": "Web server port. Automatically set by Heroku — do not change.",
-      "value": "3000",
-      "required": false
     }
   },
   "buildpacks": [
